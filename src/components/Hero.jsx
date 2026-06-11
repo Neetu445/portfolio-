@@ -8,9 +8,14 @@ function Hero() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
+        {/*bg glow lyr */}
+        <div className="hero-glow"></div>
+
       <p className="badge">Hello, I'm</p>
 
-      <h1 className="hero-name">Neetu Pathak</h1>
+      <h1 className="hero-name">
+        Neetu Pathak
+        </h1>
       
 
       <h2 className="hero-role">
